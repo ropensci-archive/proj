@@ -1,0 +1,13 @@
+Package: proj
+Type: Package
+Title: What the Package Does (Title Case)
+Description: More about what it does (maybe more than one line)
+Version: 0.0.1.99
+Date: 2015-03-02
+License: MIT + file LICENSE
+Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com")
+LazyData: TRUE
+Imports:
+    V8,
+    jsonlite
