@@ -3,12 +3,12 @@ Type: Package
 Title: R Client for proj4js
 Description: R client for proj4js.
 Version: 0.0.1.99
-Date: 2015-03-02
+Date: 2015-03-07
 License: MIT + file LICENSE
 Authors@R: person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com")
-URL: https://github.com/sckott/proj
-BugReports: http://www.github.com/sckott/proj/issues
+URL: https://github.com/ropensci/proj
+BugReports: http://www.github.com/ropensci/proj/issues
 LazyData: TRUE
 Imports:
     V8,

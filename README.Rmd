@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 ```{r eval=FALSE}
 install.packages("devtools")
-devtools::install_github("sckott/proj")
+devtools::install_github("ropensci/proj")
 ```
 
 ```{r}
@@ -32,3 +32,10 @@ to <- '"+proj=gnom +lat_0=90 +lon_0=0 +x_0=6300000 +y_0=6300000 +ellps=WGS84
 project(pts, to = to)
 ```
 
+## Meta
+
+* Please [report any issues or bugs](https://github.com/ropensci/proj/issues).
+* License: MIT
+* Get citation information for `proj` in R doing `citation(package = 'proj')`
+
+[![rofooter](http://ropensci.org/public_images/github_footer.png)](http://ropensci.org)

@@ -10,7 +10,7 @@ proj
 
 ```r
 install.packages("devtools")
-devtools::install_github("sckott/proj")
+devtools::install_github("ropensci/proj")
 ```
 
 
@@ -29,3 +29,10 @@ project(pts, to = to)
 #> [1] "-637465.7968061864,3911238.9599070395"
 ```
 
+## Meta
+
+* Please [report any issues or bugs](https://github.com/ropensci/proj/issues).
+* License: MIT
+* Get citation information for `proj` in R doing `citation(package = 'proj')`
+
+[![rofooter](http://ropensci.org/public_images/github_footer.png)](http://ropensci.org)
