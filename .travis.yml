@@ -1,11 +1,15 @@
 language: r
+sudo: false
+cache: packages
 
-before_install:
-- sudo apt-get install libv8-dev
+addons:
+  apt:
+    packages:
+      - libv8-dev  
 
 notifications:
   email:
-    on_success: change
-    on_failure: change
+    on_success: never
+    on_failure: never
   slack:
     secure: VH88KqRc9buwU3liODVtnycaBMoqvBrvCPnn3L6ydRALCGKvw4s5NCrb7RSSAnlYJSlTsiw4+fQcbkuhcJJhGUh9wK3avmCh6tJNHOztUxDbkbUzovSgXjCruNogVjnjh06yT/E3UqAINrnA9V1Hp5JUtaG6LzNV2cuP4hyqUfo=
