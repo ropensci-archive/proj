@@ -7,6 +7,9 @@ addons:
     packages:
       - libv8-dev  
 
+after_success:
+- Rscript -e 'covr::codecov()'
+
 notifications:
   email:
     on_success: never

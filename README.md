@@ -5,7 +5,7 @@ proj
 
 [![Build Status](https://travis-ci.org/ropensci/proj.svg)](https://travis-ci.org/ropensci/proj)
 [![Build status](https://ci.appveyor.com/api/projects/status/kkeuanj6a2badvea?svg=true)](https://ci.appveyor.com/project/sckott/proj)
-
+[![codecov.io](https://codecov.io/github/ropensci/proj/coverage.svg?branch=master)](https://codecov.io/github/ropensci/proj?branch=master)
 
 `proj` is an R wrapper for [proj4js](https://github.com/proj4js/proj4js).
 
