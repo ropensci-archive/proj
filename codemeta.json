@@ -1,0 +1,61 @@
+{
+  "@context": ["http://purl.org/codemeta/2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "proj",
+  "description": "R client for proj4js.",
+  "name": "proj: R Client for proj4js",
+  "codeRepository": "https://github.com/ropensci/proj",
+  "issueTracker": "http://www.github.com/ropensci/proj/issues",
+  "datePublished": "2015-03-07",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.0.1.99",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.4.3",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.4.3 Patched (2018-01-01 r74017)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Scott",
+      "familyName": "Chamberlain",
+      "email": "myrmecocystus@gmail.com"
+    }
+  ],
+  "maintainer": {
+    "@type": "Person",
+    "givenName": "Scott",
+    "familyName": "Chamberlain",
+    "email": "myrmecocystus@gmail.com"
+  },
+  "softwareSuggestions": [],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "V8",
+      "name": "V8",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Central R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "jsonlite",
+      "name": "jsonlite",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Central R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      }
+    }
+  ],
+  "contIntegration": "https://travis-ci.org/ropensci/proj",
+  "readme": "https://github.com/ropensci/proj/blob/master/README.md",
+  "fileSize": "25.298KB"
+}
