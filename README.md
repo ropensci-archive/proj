@@ -1,6 +1,5 @@
-proj
-=======
+# proj
 
-[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
+[![Project Status: Abandoned](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 
-This package is no longer maintained.
+This repository has been archived. The former README is now in [README-NOT.md](README-NOT.md).
